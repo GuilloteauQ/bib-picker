@@ -60,6 +60,6 @@ fn main() {
     for item in selected_items.iter() {
         let key: String = item.output().to_string();
         let value = myhm.get(&key).unwrap();
-        println!("{}", value);
+        print!("{}", value);
     }
 }
