@@ -43,7 +43,7 @@ fn main() {
 
     let myhm: HashMap<String, String> = HashMap::from_iter(values.clone().into_iter());
     let options = SkimOptionsBuilder::default()
-        .height(Some("25%"))
+        .height(Some("100%"))
         .multi(true)
         .build()
         .unwrap();
